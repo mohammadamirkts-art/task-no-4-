@@ -3,154 +3,243 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Firm</title>
+    <title>Keeper Law Firm</title>
     <link rel="stylesheet" href="style.css">
-    <link href="https://fonts.googleapis.com/css2?family=Noto+Serif:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css" integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
 </head>
 <body>
-    <nav>
-        <div class="nav-imgs">
-            <div class="nav-left">
-                <img class="navL-img" src="logo.png" alt="">
+    <nav class="main-navigation">
+        <div class="nav-brand-container">
+            <div class="nav-logo-wrapper">
+                <img class="nav-logo-img" src="logo.png" alt="Keeper Law Firm Logo">
             </div>
-        <div class="nav-right">
-         <h5>CALL OUR OFFICE NOW!</h5>
-         <div class="bar"></div>
-         <h1 class="nav-h1">540.433.6906</h1>
-         <p class="nav-p">Get Your Question Answered Fast</p> 
+            <div class="nav-contact-info">
+                 <h5 class="nav-contact-sub">CALL OUR OFFICE NOW!</h5>
+                 <div class="nav-divider-bar"></div>
+                 <h1 class="nav-phone-number">540.433.6906</h1>
+                 <p class="nav-tagline">Get Your Question Answered Fast</p> 
+            </div>
         </div>
-        </div>
-        <div class="navbar">
-            <div class="menu-links">
-                <ul>
-                    <a class="active">HOME</a>
-                    <a>BIOGRAPHY</a>
-                    <a>BLOG</a>
-                    <a>AREAS WE SERVICE</a>
-                    <a>LIBRARY</a>
-                    <a>CONTACT</a>
+        <div class="navbar-links-row">
+            <img class="nav-menu-toggle" src="responsive_menu_icon.png" alt="Menu Icon">
+            <div class="nav-links-wrapper">
+                <ul class="nav-menu-list">
+                    <li><a class="nav-link-item active">HOME</a></li>
+                    <li><a class="nav-link-item">BIOGRAPHY</a></li>
+                    <li><a class="nav-link-item">BLOG</a></li>
+                    <li><a class="nav-link-item">AREAS WE SERVICE</a></li>
+                    <li><a class="nav-link-item">LIBRARY</a></li>
+                    <li><a class="nav-link-item">CONTACT</a></li>
                 </ul>
             </div>
         </div>
-        
     </nav>
-    <div class="hero-section">
-        <div class="left">
-            <img class="left-img" src="gurantee_banner.gif" alt="">
-            <img class="shadow" src="lf_bt_hr_shadow.png" alt="">
-        </div>
-            <div class="right">
-                    <div class="rc-top">
-                        <span class="redbtn">QUESTIONS?</span>
-                        <h2>Have a <span>Question</span> <br> About Your Case?</h2>
-                    </div>
-                    <p class="hero-p">Enter Your Information and get your questions answered quickly and discreetly or call us at : <b>540.433.6906</b></p> 
-                    <div class="hero-form">
-                        <div class="left-form">
-                            <div class="name">
-                                <label for="">NAME:</label>
-                                <input class="names" type="text">
-                            </div>
-                            <div class="email">
-                                <label for="">EMAIL: </label>
-                                 <input class="email" type="email">
-                            </div>
-                            <div class="phone">
-                                <label for="">PHONE:</label>
-                                <input type="">
-                            </div>
 
-                        </div>
-                        <img class="confi" src="confidential.png" alt="">
-                       
+    <div class="hero-section">
+        <div class="hero-media-column">
+            <img class="hero-banner-img" src="gurantee_banner.gif" alt="Guarantee Banner">
+        </div>
+        <div class="hero-form-column">
+            <div class="hero-header-block">
+                <div class="hero-badge-questions"><h1>QUESTIONS?</h1></div>
+                <div class="hero-title-question"><h2>Have a <span class="highlight-text-large">Question</span> <br> About Your Case?</h2></div>
+            </div>
+            <div class="hero-desc-wrapper">
+                <p class="hero-description-text">Enter Your Information and get your questions answered quickly and discreetly or call us at : <b>540.433.6906</b></p> 
+            </div>
+            <div class="hero-form-container">
+                <div class="hero-inputs-block">
+                    <div class="form-field-group field-name">
+                        <label class="form-field-label">NAME:</label>
+                        <input class="form-input-text input-name" type="text">
                     </div>
-                     <div class="area">
-                            <textarea>Tell us about your case here ...</textarea>
+                    <div class="form-field-group field-email">
+                        <label class="form-field-label">EMAIL:</label>
+                        <input class="form-input-text input-email" type="email">
+                    </div>
+                    <div class="form-field-group field-phone">
+                        <label class="form-field-label">PHONE:</label>
+                        <input class="form-input-text input-phone" type="tel">
+                    </div>
+                </div>
+                <div class="hero-badge-confidential">
+                    <img class="confidential-seal-img" src="confidential.png" alt="Confidential Seal">
+                </div>
+            </div>
+            <div class="hero-textarea-wrapper">
+                <textarea class="form-textarea-field">Tell us about your case here ...</textarea>
+            </div>
+            <div class="hero-form-actions">
+                <p class="privacy-guarantee-text">100% Privacy Guaranteed</p>
+                <button class="btn-submit-case">Ask US About Your Case <i class="fa-solid fa-play"></i></button>
+            </div>
+        </div>
+    </div>
+
+    <div class="features-section">
+        <div class="features-container">
+            <div class="feature-card-dui">
+                <h1 class="feature-card-title">CHARGED WITH <span class="text-accent-red">DUI?</span></h1>
+                <h3 class="feature-card-subtitle">FREE CASE EVALUATION</h3>
+                <div class="feature-card-body">
+                    <div class="feature-card-text-block">
+                        <p class="feature-card-description">Being charged with a DUI can be scary. Get the help you deserve.</p>
+                        <p class="feature-card-description">Click here to let us know how we can help you with your case</p>
+                    </div>
+                    <img class="feature-card-icon-gif" src="paste_board.gif" alt="Evaluation Form">
+                </div>
+                <div class="feature-card-action-block">
+                    <hr class="btn-shadow-line">
+                    <button class="btn-card-action btn-dui-action">CLICK HERE <i class="fa-solid fa-play"></i></button>
+                </div>
+            </div>
+
+            <div class="vertical-divider-line"></div>
+
+            <div class="feature-split-cards">
+                <div class="split-card-row-top">
+                    <div class="split-card-left-content">
+                        <h1 class="feature-card-title">LAW <span class="text-accent-red">BLOG</span></h1>
+                        <p class="feature-card-subtext">Learn more about <br> Virginia Traffic Laws.</p>
+                        <div class="feature-card-action-block-mini">
+                            <hr class="btn-shadow-line-mini">
+                            <button class="btn-card-action-mini">CLICK HERE <i class="fa-solid fa-play"></i></button>
                         </div>
-                        <div class="right-btn">
-                            <p class="Guaranteed">100% Privacy Guaranteed</p>
-                            <button class="Ask">Ask US About Your Case <i class="fa-solid fa-play"></i></button>
+                    </div>
+                    <div class="split-card-right-media">
+                        <img class="split-card-media-img" src="pic1.gif" alt="Laptop Blog">
+                    </div>
+                </div>
+                <hr class="horizontal-card-separator">
+                <div class="split-card-row-bottom">
+                    <div class="split-card-left-content">
+                        <h1 class="feature-card-title">CASE <span class="text-accent-red">RESULTS</span></h1>
+                        <p class="feature-card-subtext">See how we help our clients.</p>
+                        <p class="feature-card-subtext">Read our latest case results.</p>
+                        <div class="feature-card-action-block-mini">
+                            <hr class="btn-shadow-line-mini">
+                            <button class="btn-card-action-mini">CLICK HERE <i class="fa-solid fa-play"></i></button>
                         </div>
+                    </div>
+                    <div class="split-card-right-media-alt">
+                        <img class="split-card-order-img" src="order_icon.gif" alt="Case Results Icon">
+                    </div>
+                </div>
             </div>
-        
+
+            <div class="vertical-divider-line"></div>
+
+            <div class="feature-card-credentials">
+                <div class="credentials-logos-row">
+                    <img class="credential-logo-sm" src="qqq.gif" alt="Badge Small"> 
+                    <img class="credential-logo-lg" src="national_college_large.gif" alt="National College Logo">
+                </div>
+                <div class="credentials-text-row">
+                    <h1 class="feature-card-title">CERTIFICATE & <span class="text-accent-red">CREDENTIALS</span></h1>
+                    <p class="feature-card-description-alt">Keefer Law Firm has protected the rights of virginians for over 30 years.</p>
+                    <div class="feature-card-action-block-mini">
+                        <hr class="btn-shadow-line-mini">
+                        <button class="btn-card-action-credentials">CLICK HERE <i class="fa-solid fa-play"></i></button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <img class="bottom-section-shadow-divider" src="hr_shadow.png" alt="Section Shadow Divider">
     </div>
-    <div class="section2">
-        <div class="sec2-main">
-             <div class="sec2-div1">
-            <h1 class="sec2-h1">CHARGED WITH <span class="sec2-span">DUI?</span> </h1>
-            <h3>FREE CASE EVALUATION</h3>
-            <div class="sec2-Card-content">
-                <div class="para">
-                    <p>Being charged with a DUI can be scary.Get the help you deserve.</p>
-                    <p>Click here to let us know how we can help you with your case</p>
+
+    <div class="details-section">
+        <div class="details-column-menu">
+            <h2 class="details-column-title">PRACTICE <span class="title-accent-red">AREAS</span></h2>
+            
+            <a class="gradient-menu-button" href="">
+                <div class="menu-btn-top-text">DUI & DWI</div>
+                <div class="menu-btn-bottom-text">LEARN MORE <i class="fa-solid fa-play menu-play-icon"></i></div>
+            </a>
+            <a class="gradient-menu-button" href="">
+                <div class="menu-btn-top-text">RECKLESS DRIVING</div>
+                <div class="menu-btn-bottom-text">LEARN MORE <i class="fa-solid fa-play menu-play-icon"></i></div>
+            </a>
+            <a class="gradient-menu-button" href="">
+                <div class="menu-btn-top-text">SPEEDING TICKETS</div>
+                <div class="menu-btn-bottom-text">LEARN MORE <i class="fa-solid fa-play menu-play-icon"></i></div>
+            </a>
+            <a class="gradient-menu-button" href="">
+                <div class="menu-btn-top-text">TRAFFIC VIOLATIONS</div>
+                <div class="menu-btn-bottom-text">LEARN MORE <i class="fa-solid fa-play menu-play-icon"></i></div>
+            </a>
+
+            <h2 class="details-column-title">LEARN <span class="title-accent-red">MORE</span> ABOUT</h2>
+            <div class="footer-placeholder-headings">
+                <h2 class="placeholder-heading-item" style="color: rgb(201, 201, 201);">MENU</h2>
+                <h2 class="placeholder-heading-item" style="color: rgb(201, 201, 201);">AREA</h2>
+                <h2 class="placeholder-heading-item" style="color: rgb(201, 201, 201);">HERE</h2>
+            </div>
+        </div>
+
+        <div class="details-column-content">
+            <h2 class="details-content-main-title">&lt;H1&gt; PAGE TITLE HERE</h2>
+            <p class="details-content-paragraph">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Doloremque fuga delectus non, enim tempore officia reprehenderit ullam dolore. Ullam amet soluta ipsum, ut temporibus id optio at earum aliquid, consequatur nesciunt, perferendis accusantium esse velit molestiae quo voluptatum necessitatibus alias error. Maxime aperiam libero, repellat tempore ad quia ipsa dolor harum, explicabo quidem ipsum voluptatem odio eius earum reiciendis in.</p>
+        </div>
+
+        <div class="details-column-sidebar">
+            <div class="sidebar-cards-wrapper">
+                <div class="sidebar-action-card">
+                    <h1 class="sidebar-card-title">CLIENT <span class="sidebar-title-accent">TESTIMONIALS</span></h1>
+                    <p class="sidebar-card-desc">Read what others say about Keefer Law Firm</p>
+                    <div class="feature-card-action-block-mini">
+                        <hr class="sidebar-btn-shadow-line">
+                        <button class="btn-sidebar-action">CLICK HERE <i class="fa-solid fa-play"></i></button>
+                    </div>
                 </div>
-                <img class="paste_board" src="paste_board.gif" alt="">
-            </div>
-            <div class="sec2-btn">
-                <hr class="hr_shadow">
-                <button class="click-here1">CLICK HERE <i class="fa-solid fa-play"></i></button>
-            </div>
-        </div>
-        <div class="barline">    
-        </div>
-        <div class="sec2-div2">
-            <div class="row1">
-                <div class="row1-left">
-                    <h1 class="sec2-h1">LAW <span class="sec2-span"> BLOG</span></h1>
-                    <P class="sec2-para">Learn more about <br> Virginia Traffic Laws.</P>
-                    <div class="sec2-btn1">
-                        <hr class="hr_shadow1">
-                <button class="click-here11">CLICK HERE <i class="fa-solid fa-play"></i></button>
-            </div>
+                <div class="sidebar-action-card">
+                    <h1 class="sidebar-card-title">DOWNLOAD<span class="sidebar-title-accent"><br> FREE</span> REPORTS</h1>
+                    <p class="sidebar-card-desc">Discover the truth about Virginia Law</p>
+                    <div class="feature-card-action-block-mini">
+                        <hr class="sidebar-btn-shadow-line">
+                        <button class="btn-sidebar-action">CLICK HERE <i class="fa-solid fa-play"></i></button>
+                    </div>
                 </div>
-                <div class="row1-right">
-                    <img class="laptop-img" src="pic1.gif" alt="">
-                    
+                <div class="sidebar-action-card">
+                    <h1 class="sidebar-card-title">CONTACT<span class="sidebar-title-accent"> OUR</span> OFFICES</h1>
+                    <p class="sidebar-card-desc">Read what others say about Keefer Law Firm</p>
+                    <div class="feature-card-action-block-mini">
+                        <hr class="sidebar-btn-shadow-line">
+                        <button class="btn-sidebar-action">CLICK HERE <i class="fa-solid fa-play"></i></button>
+                    </div>
                 </div>
             </div>
-            <hr class="separater">
-            <div class="card2-row2">
-                <div class="row2-left">
-                    <h1 class="sec2-h1">CASE <span class="sec2-span">RESULTS</span></h1>
-                    <P class="sec2-para">See how we help our clients.</P>
-                    <p class="sec2-para" >Read our latest case results.</p>
-                    
-                    <div class="sec2-btn1">
-                        <hr class="hr_shadow1">
-                <button class="click-here11">CLICK HERE <i class="fa-solid fa-play"></i></button>
-            </div>
+            
+            <div class="footer-social-block">
+                <div class="footer-trust-logos">
+                    <img class="footer-trust-logo-img" src="qqq.gif" alt="Trust Badge Sm">
+                    <img class="footer-trust-logo-img" src="national_college_large.gif" alt="Trust Badge Lg">
                 </div>
-                <div class="row2-right">
-                    <img class="order-img" src="order_icon.gif" alt="">
-                    
+                <div class="footer-social-icons-wrapper">
+                    <div class="footer-social-header">
+                        <h2 class="footer-social-title">FOLLOW <span class="sidebar-title-accent">US</span></h2>
+                        <hr class="footer-social-divider-line">
+                    </div>
+                    <img class="footer-social-icon-img" src="fb_icon.gif" alt="Facebook">
+                    <img class="footer-social-icon-img" src="google_icon.gif" alt="Google">
+                    <img class="footer-social-icon-img" src="twitter_icon.gif" alt="Twitter">
+                    <img class="footer-social-icon-img" src="linked_icon.gif" alt="LinkedIn">
                 </div>
             </div>
         </div>
-        <div class="barline"></div>
-        <div class="sec2-div3">
-        <div class="card3-row1">
-            <img class="img-small" src="qqq.gif" alt=""> 
-            <img class="img-large" src="national_college_large.gif" alt="">
-        </div>
-        <div class="card3-row2">
-            <h1 class="sec2-h1" >CERTIFICATE & <SPan class="sec2-span">CREDENTIALS</SPan> </h1>
-            <pre>Keefer Law Firm has protected the 
-rights of virginians for over 30 years</pre>
-                 <div class="sec2-btn1">
-                        <hr class="hr_shadow1">
-                <button class="click-here11">CLICK HERE <i class="fa-solid fa-play"></i></button>
-            </div>
-        </div>
-        </div>
-        </div>
-       
-        <img class="btm-shadow" src="hr_shadow.png" alt="">
     </div>
-    
-            </div>
-       
-        </div>
-        
-    </div>
+
+    <div class="footer-bottom-accent-border"></div>
+
+    <script>
+        var menuBtn = document.querySelector(".nav-menu-toggle");
+        var navLinks = document.querySelector(".nav-menu-list");
+
+        menuBtn.addEventListener('click', () => {
+            navLinks.classList.toggle('active');
+        })
+    </script>
 </body>
 </html>
