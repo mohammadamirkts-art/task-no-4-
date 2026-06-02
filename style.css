@@ -4,8 +4,7 @@
     font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 }
 
-.main-navigation {
-}
+.main-navigation {}
 
 .nav-brand-container {
     display: flex;
@@ -42,13 +41,13 @@
     letter-spacing: 1px;
     font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     font-weight: 800;
-    color: rgb(155, 3, 0); 
+    color: rgb(155, 3, 0);
 }
 
 .nav-tagline {
     font-size: 1.9vw;
     font-weight: 550;
-    color: rgba(24, 24, 24, 0.616); 
+    color: rgba(24, 24, 24, 0.616);
 }
 
 .nav-divider-bar {
@@ -104,6 +103,7 @@
     .nav-phone-number {
         font-size: 3.7vw;
     }
+
     .nav-link-item {
         font-size: 1.3vw;
         padding: 17px 20px;
@@ -114,18 +114,23 @@
     .nav-contact-info {
         padding: 10px;
     }
+
     .nav-divider-bar {
         width: 100%;
     }
+
     .nav-phone-number {
         font-size: 3.7vw;
     }
+
     .nav-contact-sub {
         font-size: 2.4vw;
     }
+
     .nav-tagline {
         font-size: 1.8vw;
     }
+
     .nav-link-item {
         font-size: 1.4vw;
         padding: 18px 20px;
@@ -138,15 +143,19 @@
         justify-content: center;
         align-items: center;
     }
+
     .nav-logo-wrapper {
         width: 100%;
     }
+
     .nav-contact-info {
         width: 100%;
     }
+
     .nav-divider-bar {
         width: 33%;
     }
+
     .nav-menu-list {
         display: none;
         position: absolute;
@@ -160,9 +169,11 @@
         row-gap: 16px;
         padding-left: 16px;
     }
+
     .nav-menu-toggle {
         display: block;
     }
+
     .nav-menu-list.active {
         display: flex;
     }
@@ -205,7 +216,7 @@
 }
 
 .hero-badge-questions {
-    width: 50%;  
+    width: 50%;
     container-type: inline-size;
 }
 
@@ -316,7 +327,7 @@
     font-size: 2.2cqw;
     padding-top: 6px;
     padding-left: 8px;
-    font-weight: 550; 
+    font-weight: 550;
 }
 
 .hero-form-actions {
@@ -356,7 +367,7 @@
 
 .feature-card-dui {
     width: 30%;
-    padding: 12px; 
+    padding: 12px;
 }
 
 .feature-card-title {
@@ -425,7 +436,7 @@
 }
 
 .btn-card-action {
-    width: 40%;  
+    width: 40%;
     padding: 4px 8px;
     font-size: 1.2vw;
     background-color: #a30705;
@@ -514,7 +525,7 @@
     margin-top: 10px;
 }
 
-	.split-card-right-media-alt {
+.split-card-right-media-alt {
     display: flex;
     justify-content: flex-end;
     width: 45%;
@@ -606,7 +617,7 @@
     color: white;
     text-decoration: none;
     background: linear-gradient(to bottom, #8e8e8e, #6f6f6f);
-    box-shadow: inset 0 1px 0 rgba(255,255,255,.25), 0 4px 8px rgba(0,0,0,.35);
+    box-shadow: inset 0 1px 0 rgba(255, 255, 255, .25), 0 4px 8px rgba(0, 0, 0, .35);
 }
 
 .menu-btn-top-text {
@@ -727,7 +738,7 @@
 .footer-trust-logos {
     display: flex;
     flex-direction: column;
-    align-items: center; 
+    align-items: center;
     padding-left: 12px;
 }
 
@@ -769,53 +780,70 @@
     .features-container {
         flex-wrap: wrap;
     }
+
     .feature-card-dui {
         width: 40%;
     }
+
     .feature-split-cards {
         width: 40%;
     }
+
     .feature-card-credentials {
         width: calc(50% - 10px);
         margin-top: 20px;
     }
+
     .feature-card-title {
         font-size: 3vw;
     }
+
     .feature-card-subtitle {
         font-size: 2vw;
     }
+
     .feature-card-description {
         font-size: 1.6vw;
     }
+
     .feature-card-subtext {
         font-size: 1.3vw;
     }
+
     .text-accent-red {
         font-size: 3vw;
     }
-    .img, .paste_board {
+
+    .img,
+    .paste_board {
         width: 20%;
     }
+
     .btn-shadow-line {
         width: 22%;
     }
+
     .btn-shadow-line-mini {
         width: 18%;
     }
+
     .btn-card-action-credentials {
         width: 30%;
     }
+
     .details-section {
         flex-wrap: wrap;
         column-gap: 8%;
     }
+
     .details-column-menu {
         width: 30%;
     }
+
     .details-column-content {
         width: 60%;
     }
+
     .details-column-sidebar {
         display: flex;
         flex-direction: row;
@@ -823,32 +851,40 @@
         margin-top: 30px;
         width: 100%;
     }
+
     .sidebar-action-card {
         margin: auto;
         width: 66%;
     }
+
     .footer-social-header h2 {
         font-size: 2.5vw;
     }
+
     .sidebar-title-accent {
         font-size: 2.5vw;
     }
+
     .footer-social-block {
         width: 60%;
         margin-top: 30px;
     }
+
     .footer-trust-logos {
         display: flex;
         flex-direction: row;
         column-gap: 12px;
     }
+
     .footer-trust-logo-img {
         width: 40%;
     }
+
     .footer-social-icons-wrapper {
         margin: auto;
         width: 50%;
     }
+
     .sidebar-btn-shadow-line {
         width: 20%;
     }
@@ -860,107 +896,136 @@
         align-items: center;
         justify-content: center;
     }
+
     .hero-media-column {
         width: 92%;
     }
+
     .hero-form-column {
         margin-top: 12px;
         width: 90%;
     }
+
     .features-container {
         flex-wrap: wrap;
         row-gap: 12px;
         align-items: center;
     }
-    .feature-card-dui { 
+
+    .feature-card-dui {
         width: 70%;
         justify-content: center;
         align-items: center;
-    } 
+    }
+
     .feature-card-title {
         font-size: 5vw;
     }
+
     .feature-card-subtitle {
         font-size: 3vw;
     }
+
     .feature-card-description {
         font-size: 3vw;
     }
+
     .feature-card-subtext {
         font-size: 2.5vw;
     }
+
     .text-accent-red {
         font-size: 5vw;
     }
+
     .paste_board {
         width: 20%;
     }
+
     .btn-shadow-line {
         width: 30%;
     }
+
     .btn-shadow-line-mini {
         width: 32%;
     }
+
     .btn-card-action {
         width: 30%;
         font-size: 2vw;
         margin-right: 34px;
     }
+
     .btn-card-action-mini {
         width: 66%;
         font-size: 2vw;
     }
+
     .btn-card-action-credentials {
         width: 40%;
         font-size: 2vw;
     }
+
     .feature-split-cards {
-        width: 70%; 
+        width: 70%;
     }
+
     .split-card-row-top {
         margin-top: 4px;
     }
+
     .split-card-row-bottom {
         margin-top: 4px;
     }
+
     .feature-card-credentials {
         margin-top: 8px;
         width: 70%;
-    } 
+    }
+
     .credential-logo-lg {
         width: 30%;
     }
+
     .credential-logo-sm {
         width: 30%;
     }
+
     .credentials-text-row {
         margin-left: 22px;
     }
+
     .feature-card-description-alt {
         font-size: 2.8vw;
     }
+
     .vertical-divider-line {
         height: 0;
         width: 80%;
     }
+
     .details-section {
         flex-direction: column;
         justify-content: center;
         align-items: center;
         row-gap: 16px;
     }
+
     .details-column-menu {
         display: flex;
         flex-direction: column;
         align-items: center;
         width: 80%;
     }
+
     .menu-btn-top-text {
         font-size: 4vw;
     }
+
     .menu-btn-bottom-text {
         font-size: 3vw;
     }
+
     .details-column-content {
         display: flex;
         flex-direction: column;
@@ -968,51 +1033,65 @@
         align-items: center;
         width: 95%;
     }
+
     .footer-placeholder-headings {
         margin-top: 8%;
     }
+
     .details-column-sidebar {
         display: flex;
         flex-direction: column;
         align-items: center;
         width: 100%;
     }
+
     .sidebar-action-card {
         width: 70%;
     }
+
     .sidebar-action-card h1 {
         font-size: 4vw;
     }
+
     .sidebar-title-accent {
         font-size: 4vw;
     }
+
     .sidebar-action-card p {
         font-size: 2.2vw;
     }
+
     .footer-social-header h2 {
         text-align: center;
         font-size: 5vw;
         margin: auto;
     }
+
     .sidebar-title-accent {
         font-size: 5vw;
     }
+
     .footer-social-block {
         width: 100%;
     }
+
     .footer-social-icon-img {
         width: 16%;
     }
+
     .btn-sidebar-action {
         width: 70%;
-        font-size: 2vw;       
+        font-size: 2vw;
     }
+
     .sidebar-btn-shadow-line {
         width: 34%;
     }
+
     .footer-trust-logos {
         flex-direction: column;
     }
+
     .footer-trust-logo-img {
         width: 30%;
     }
@@ -1022,35 +1101,45 @@
     .details-column-sidebar {
         width: 70%;
     }
+
     .sidebar-action-card h1 {
         font-size: 6vw;
     }
+
     .sidebar-action-card p {
         font-size: 4vw;
     }
+
     .details-content-paragraph {
         font-size: 2.8vw;
         margin: auto;
     }
+
     .details-column-title {
         font-size: 6vw;
     }
+
     .btn-sidebar-action {
         width: 60%;
         font-size: 2vw;
     }
+
     .sidebar-action-card {
         width: 100%;
     }
+
     .sidebar-btn-shadow-line {
         width: 48%;
     }
+
     .nav-tagline {
         font-size: 2.2vw;
     }
+
     .footer-trust-logo-img {
         width: 60%;
     }
+
     .footer-social-icon-img {
         width: 10%;
     }
